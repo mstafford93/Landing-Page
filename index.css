@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: whitesmoke;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    border-bottom: 1px solid white;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 0.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 1rem;
+    color: whitesmoke;
+}
