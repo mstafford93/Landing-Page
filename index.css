@@ -1,14 +1,22 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: black;
     color: whitesmoke;
+}
+
+body {
+    background-image: url(./images/moon-bg.jpg);
+    background-size: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     font-size: 1.5rem;
+    background-color: black;
     border-bottom: 1px solid white;
 }
 
