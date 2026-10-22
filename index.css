@@ -92,6 +92,11 @@ nav a {
     height: 100%;
     width: auto;
     filter: brightness(70%);
+    transition: all 2s;
+}
+
+#selfie img:hover {
+    filter: brightness(100%);
 }
 
 /*Footer section*/
