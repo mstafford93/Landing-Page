@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    color: whitesmoke;
 }
 
 body {
@@ -10,6 +9,7 @@ body {
     background-repeat: no-repeat;
     background-position: bottom right;
     background-color: black;
+    color: whitesmoke;
 }
 
 /*Navigation section*/
@@ -53,16 +53,27 @@ nav a {
     justify-content: space-around;
 }
 
-#buttons button {
-    height: 4rem;
-    width: 9rem;
+#buttons .button {
+    padding: 3rem 7rem;
     background-color: black;
     border: 1px solid white;
     border-radius: 8px;
 }
 
-button a {
+#buttons .button:hover {
+    background-color: rgb(102, 101, 101);
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px rgb(102, 101, 101);
+}
+
+.button {
     text-decoration: none;
+    color: whitesmoke;
+}
+
+.button:hover {
+    color: black;
 }
 
 /*Selfie section*/
