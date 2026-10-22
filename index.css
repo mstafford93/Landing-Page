@@ -6,11 +6,13 @@
 
 body {
     background-image: url(./images/moon-bg.jpg);
-    background-size: 80vh;
+    background-size: 60vh;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom right;
     background-color: black;
 }
+
+/*Navigation section*/
 
 nav {
     display: flex;
@@ -30,4 +32,34 @@ nav a {
     text-decoration: none;
     margin-right: 1rem;
     color: whitesmoke;
+}
+
+/*Header Section*/
+
+#header{
+    width: 70%;
+    height: 50vh;
+    border: 1px solid red;
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+#header h1 {
+    font-size: 6rem;
+}
+
+/*selfie*/
+
+#selfie {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 50vh;
+    width: auto;
+}
+
+#selfie img {
+    height: 100%;
+    width: auto;
+    
 }
