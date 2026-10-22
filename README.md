@@ -27,4 +27,17 @@ Open index.html in your browser.
 
 No package installation is required.
 
+## Deployment
+
+The website is hosted on Vercel.
+
+Visit the live version here:
+
+https://landing-page-9r2elea6n-mstafford93.vercel.app
+
+## Credits
+
+A Front-End Developer project to advertise myself and my skills
+
+
 
