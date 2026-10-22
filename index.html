@@ -4,18 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Potfolio Landing Page</title>
+    <title>MStafford Landing Page</title>
     <link rel="stylesheet" href="index.css">
     <!--Roboto Mono-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
         rel="stylesheet">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/9feed898f7.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <nav>
         <h2>MStafford</h2>
+        <i class="fa-solid fa-bars" id="burger" onclick="dropdown()"></i>
         <ul>
             <li><a href="#">About Me</a></li>
             <li><a href="#">Projects</a></li>
@@ -23,6 +26,12 @@
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
+    <ul id="dropdown-content" class="hide">
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
     <div id="selfie">
         <img src="./images/selfie-no-bg.png" alt="selfie">
     </div>
@@ -37,8 +46,8 @@
         <br>
         <br>
         <div id="buttons">
-            <a href="#github" class="button">GitHub</a>
-            <a href="#medium" class="button">Meduim</a>
+            <a href="https://github.com/mstafford93" target="_blank" class="button">GitHub</a>
+            <a href="mailto:mgstafford@hotmail.co.uk" class="button">E-Mail</a>
         </div>
     </div>
     <footer>

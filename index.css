@@ -23,6 +23,42 @@ nav {
     border-bottom: 1px solid white;
 }
 
+nav h2 {
+    color: rgb(245, 245, 34);
+    text-shadow: 2px 2px 10px rgb(246, 248, 120);
+}
+
+#burger {
+    display: none;
+}
+
+#dropdown-content {
+    justify-items: center;
+    list-style-type: none;
+}
+
+.hide {
+    display: none;
+}
+
+#dropdown-content li{
+    border: 1px solid white;
+    background-color: rgb(49, 49, 49);
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+
+#dropdown-content a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#dropdown-content a:hover {
+    text-decoration: none;
+    color: rgb(245, 245, 34);
+}
+
 nav ul {
     display: flex;
     list-style-type: none;
@@ -130,9 +166,9 @@ footer a {
     color: whitesmoke;
 }
 
-@media (max-width: 900px){
-    nav ul {
-        display: none;
+@media (max-width: 1100px){
+    body { 
+        background-position: right;
     }
 
     #buttons{
@@ -150,6 +186,20 @@ footer a {
         background-size: contain;
         background-size: 90vh;
     }
+
+    #burger {
+        display: block;
+        margin: 1rem;
+    }
+
+    .dropdown {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+    }
+
     #selfie {
         position: static;
         display: flex;
@@ -167,8 +217,6 @@ footer a {
         margin-left: 0.5rem;
         margin-bottom: 2rem;
     }
-
-
 
     footer {
       position: static;
