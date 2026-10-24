@@ -1,5 +1,9 @@
 # Portfolio Landing Page
 
+## Preview
+
+![Screenshot Landing Page](https://github.com/mstafford93/Landing-Page/blob/main/images/landing-page-ss.png?raw=true)
+
 ## Overview
 
 A created landing page that is responsive for different viewports. That advertises myself and to get viewer to further engage with the page.
