@@ -23,11 +23,13 @@ A created landing page that is responsive for different viewports. That advertis
 ## Installation
 Clone the repository:
 
-git clone https://github.com/mstafford93/Landing-Page
+`git clone https://github.com/mstafford93/Landing-Page`
+
 Navigate to the project directory:
 
-cd Landing-Page
-Open index.html in your browser.
+`cd Landing-Page`
+
+Open `index.html` in your browser.
 
 No package installation is required.
 
