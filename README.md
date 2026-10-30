@@ -3,6 +3,7 @@
 ## Preview
 
 ![Screenshot Landing Page](https://github.com/mstafford93/Landing-Page/blob/main/images/landing-page-ss.png?raw=true)
+<a href="" target="_blank">Live Link Here</a>
 
 ## Overview
 
